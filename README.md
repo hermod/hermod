@@ -1,44 +1,37 @@
 Introduction
 =============
 
-The purpose of this Hermod project is to define a high level framework to build very fast messaging applications where it's very easy to switch between serialization or publisher/subscriber implementation.
+The purpose of this Hermod project is to define a high level framework to build very fast messaging applications where it's very easy to switch between serialization or publisher/subscriber implementations.
 
 Goals/Drivers
 =============
 
-You can make an analogy with logger and SLF4J for example.
+You can make an analogy with logger and SLF4J (API) / logback (Implementation)  for example.
 
-This project aims to be an API for publish subscriber concept (included serialization).
+This project aims to be an API and an Implemention for
+* serialization,
+* publish/subscribe concept.
 
-Study will be done into Java but target should be
+The project will be firstly done on java but other bindings will follow :
 
-* Provide a DSL to provide a basic message builder (Mandatory).
-* Java binding (mandatory).
-* C# binding.
-* C++ binding.
-* JavaScript binding.
+* Java (JVM) binding,
+* C# (CLR) binding (in progress),
+* C++ (native) binding (TODO),
+* Javascript (javascript engine) binding (potentatially TODO?).
 
 Our 3 drivers are:
 
-* Performance
-* Interoperability (for both: implementation and/or language)
+* Performance,
+* Interoperability (for both: implementation and/or language),
 * Low coupling between components. 
 
+# Subprojets #
 
-Sub-projets are
+* [hermod-ser](https://github.com/hermod/hermod-ser) (Serialization API and Implementation)
+* [hermod-feed](https://github.com/hermod/hermod-feed) (Feed Publish/Subcribe API and Implementation) 
 
-* hermod-ser-[api|hermod] (Serialization)
-* hermod-feed-[api|hermod] (Feed Publish/Subcribe) 
-              
 
 Hermod, what is the meaning ?
+=============================
 
 Hermod is the God of Speed and the Messager of the Gods in the norse mythology.
-
-Links
-=====
-
-[![Build Status](https://buildhive.cloudbees.com/job/hermod/job/hermod-java-parent/badge/icon)](https://buildhive.cloudbees.com/job/hermod/job/hermod-java-parent/)
-
-
-The [maven site Link](https://buildhive.cloudbees.com/job/hermod/job/hermod-java-parent/site/).
