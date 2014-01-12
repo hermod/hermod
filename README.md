@@ -27,11 +27,11 @@ Our 3 drivers are:
 
 # Subprojects
 
-## Hermod Serialization (Serialization API and Implementations)
-* [hermod-ser](https://github.com/hermod/hermod-ser) 
+## Hermod Serialization 
+* [hermod-ser](https://github.com/hermod/hermod-ser) (Serialization API and Implementations)
  
-## Hermod Feed (Feed Publish/Subcribe API and Implementations)
-* [hermod-feed](https://github.com/hermod/hermod-feed) 
+## Hermod Feed 
+* [hermod-feed](https://github.com/hermod/hermod-feed) (Feed Publish/Subcribe API and Implementations)
 
 
 # Hermod, what is the meaning ?
