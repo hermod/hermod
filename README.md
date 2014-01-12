@@ -16,7 +16,7 @@ The project will be firstly done on java but other bindings will follow :
 * Java (JVM) binding,
 * C# (CLR) binding,
 * C++ (native) binding,
-* Javascript (javascript engine) binding.
+* Javascript (js engine) binding.
 
 Our 3 drivers are:
 
@@ -25,10 +25,13 @@ Our 3 drivers are:
 * Low coupling between components.
 
 
-# Subprojets
+# Subprojects
 
-* [hermod-ser](https://github.com/hermod/hermod-ser) (Serialization API and Implementation)
-* [hermod-feed](https://github.com/hermod/hermod-feed) (Feed Publish/Subcribe API and Implementation) 
+## Hermod Serialization (Serialization API and Implementations)
+* [hermod-ser](https://github.com/hermod/hermod-ser) 
+ 
+## Hermod Feed (Feed Publish/Subcribe API and Implementations)
+* [hermod-feed](https://github.com/hermod/hermod-feed) 
 
 
 # Hermod, what is the meaning ?
