@@ -3,6 +3,7 @@
 The purpose of this Hermod project is to define a high level framework to build very fast messaging applications where it's very easy to switch between serialization or publisher/subscriber implementations.
 
 
+
 # Goals/Drivers
 
 You can make an analogy with logger and SLF4J (API) / logback (Implementation)  for example.
@@ -25,6 +26,7 @@ Our 3 drivers are:
 * Low coupling between components.
 
 
+
 # Subprojects
 
 ## Hermod Serialization 
@@ -32,6 +34,7 @@ Our 3 drivers are:
  
 ## Hermod Feed 
 * [hermod-feed](https://github.com/hermod/hermod-feed) (Feed Publish/Subcribe API and Implementations)
+
 
 
 # Hermod, what is the meaning ?
